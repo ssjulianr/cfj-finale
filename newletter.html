@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="newsletter.js"></script>
-    <link rel ='stylesheet' href="newsletter.css">
-    
+    <script type="text/javascript" src="newletter.js"></script>
+    <link rel ='stylesheet' href="news.css">
+    <link rel ='stylesheet' href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -43,13 +43,13 @@
     visitors, potentially boosting economic development and improving quality of life for everyone in the community.
      </p>
 </main>
-<br class="grass">
+<br>
 <section class="video">
     <video autoplay loop muted>
-        <source src="lawnvid.mp4" type="video/mp4" alt="Lawnmowing Video">
+        <source src="project/CODEFORJUSTICE/lawnvid.MP4" type="video/mp4" alt="Lawnmowing Video">
     </video>
-    <aside>
-        <h2>Landscaping and Lawn Service</h2>
+    <aside class="video-text">
+        <h1>Landscaping and Lawn Service</h1>
         <p>By offering free lawn and landscaping services, these nonprofits are not only beautifying outdoor
 spaces but also making a positive impact on the lives of people in poverty. A well-maintained lawn can
 improve the curb appeal of a home, increase property values, and provide a safe outdoor space for families
@@ -57,7 +57,7 @@ to enjoy. Additionally, the job training and leadership development opportunitie
 can provide valuable skills and a path out of poverty for young people. In many communities, having a well-maintained
 lawn or garden is a sign of pride and care for one's home. However, for many people living in poverty, the cost of 
 maintaining their outdoor spaces can be a significant financial burden. This is where nonprofit organizations that 
-offer free lawn and landscaping services come in to make a difference. <span class="dots">...</span><span class="more">
+offer free lawn and landscaping services come in to make a difference. <span id="dots">...</span><span id="more">
 One such organization is GreenCare for Troops, a program of Project EverGreen, a national nonprofit committed to creating
 a greener, healthier, cooler Earth. GreenCare for Troops provides free lawn and landscaping services for the families of 
 deployed military personnel, as well as disabled and elderly veterans. The program matches volunteers, such as lawn care 
@@ -68,13 +68,12 @@ development opportunities to young people from these neighborhoods, giving them 
 Nonprofits like GreenCare for Troops and Lawns to Leaders demonstrate that even small acts of kindness can make a big 
 difference in the lives of others. Their commitment to improving outdoor spaces and providing job training opportunities is 
 a reminder of the power of community and the importance of supporting those in need.</span></p>
-        <button onclick="myFunction(event)" class="myBtn">Read more</button>
+    <button onclick="myFunction()" id="myBtn">Read more</button> 
     </aside>
 </section>
-<br class="grass">
 <section class="picture">
-    <aside>
-    <h2>Murals</h2>
+    <img src="project/CODEFORJUSTICE/mural.png" alt="Taylor Reinhold "DMAB Mural">
+    <h1>Murals</h1>
     <p>Murals are a powerful form of public art that can transform a neighborhood, uplift its residents, and attract
 visitors. Unfortunately, many low-income neighborhoods lack access to public art, which can exacerbate feelings of 
 neglect and isolation. That's where nonprofit organizations like "Mural for All" come in.
@@ -82,7 +81,7 @@ neglect and isolation. That's where nonprofit organizations like "Mural for All"
 low-income neighborhoods across the country. Their goal is to provide free public art that reflects the community's
 culture and identity while also attracting more people to the surrounding businesses. The process starts by identifying
 communities that could benefit from a mural. The organization then works with local businesses and community leaders to
-determine the best location for the mural and the theme that will resonate with the community.<span class="dots">...</span><span class="more"> Once the design is finalized, the organization sets to work with a team of artists to bring the mural to life. 
+determine the best location for the mural and the theme that will resonate with the community.<span id="dots">...</span><span id="more"> Once the design is finalized, the organization sets to work with a team of artists to bring the mural to life. 
 These artists are often local themselves, ensuring that the mural reflects the community's identity and culture.
 The impact of these murals can be transformative. They not only beautify a neighborhood but also provide a sense of pride
 and ownership for the community. They also attract more visitors to the area, which can help local businesses thrive.
@@ -90,22 +89,19 @@ In addition to their mural work, "Mural for All" also runs community programs th
 next generation of artists. These programs include after-school programs, workshops, and mentorship opportunities.
 Overall, "Mural for All" is an inspiring example of how public art can transform a community. By providing free murals to 
 low-income neighborhoods, they are creating a more beautiful, connected, and prosperous world, one mural at a time.</span></p>
-<button onclick="myFunction(event)" class="myBtn">Read more</button>
-</aside> 
-<img src="mural.png" alt="Taylor Reinhold "DMAB Mural">
+<button onclick="myFunction()" id="myBtn">Read more</button> 
 </section>
-<br class="grass">
-<details class="forms">
+<details>
     <summary>Sign Up for Our Newpaper</summary>
-        <form>
-            <label for="email">Enter your email:</label><br>
-            <input placeholder="Put your Email you'd like to sign up with" type="email" id="email" name="email"><br>
-            <label for="phone">Enter your phone number:</label><br>
-            <input placeholder="312-704-8569" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
-            <input type="submit" value="Submit">
-            <input type="reset">
-        </form>
-</details>
+    <form>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Enter your phone number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+  </details>
   <footer>
     <a href="https://www.instagram.com/explore/tags/sushi/">
     <img src="https://img.icons8.com/color/512/instagram-new.png" alt="Instagram" style="width:50px;height:50px;">
@@ -116,7 +112,7 @@ low-income neighborhoods, they are creating a more beautiful, connected, and pro
   <a href="https://www.facebook.com/TheCowfish/">
     <img src="https://img.icons8.com/color/512/facebook-new.png" alt="Facebook " style="width:50px;height:50px;">
   </a>
-    <p>&copy; 2023 GIAI</p>
+    <p>&copy; 2023 GAIA C13</p>
 </footer>
 </body>
 </html>
