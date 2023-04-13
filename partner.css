@@ -1,7 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins',sans-serif;
 }
 
 .hero{
@@ -118,7 +119,7 @@
 nav {
     background-color: #77dd77;
     font-size: 1.2rem;
-    padding-top: 3.125rem;
+    padding-top: 0.5rem;
   }
   nav{
     /* padding: 0; */
