@@ -5,7 +5,7 @@
 }
 
 .hero{
-    background-image: linear-gradient(rgba(74,103,65, 0.5), rgba(74,103,65, 0.5)), url(images/back.webp);
+    background-image: linear-gradient(rgba(74,103,65, 0.5), rgba(74,103,65, 0.5)), url(source/back.webp);
     height:100vh;
     width: 100%;
     position: relative;
