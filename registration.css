@@ -1,37 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+/* Start of Nav Bar */
 nav {
-    background-color: #f2f2f2;
-    font-size: 1.2rem;
-  }
   
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-  }
+  font-size: 0.7rem;
+  padding: 30em;
+  font-family: 'Poppins',sans-serif;
+}
+nav{
+  padding: 0;
+  width: 100dvw;
+}
+nav ul {
   
-  nav li {
-    margin: 0 10px;
-  }
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+nav li {
+  margin: 0;
+}
+nav a {
   
-  nav a {
-    display: block;
-    padding: 10px;
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
-    color: #0099cc;
-  }
-  
-  nav a.active {
-    color: #0099cc;
-  }
+  display: block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #078e27;
+}
+nav a.active {
+  color: #078e27;
+}
+/* End of Nav Bar */
 *{
   margin: 0;
   padding: 0;
@@ -39,12 +44,16 @@ nav {
   font-family: 'Poppins',sans-serif;
 }
 body{
-  height: 100vh;
+  flex-direction: column;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
   background: linear-gradient(135deg, #8ff96b, #fefe38);
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
 }
 .container{
   max-width: 700px;
@@ -178,7 +187,7 @@ form .user-details .input-box{
   }
 }
 footer {
-    background-color: #f2f2f2;
+    background: linear-gradient(-135deg, #8ff96b, #fefe38);
     padding: 20px;
     display: flex;
     justify-content: center;
