@@ -1,5 +1,4 @@
 body{
-  background: linear-gradient(270deg, #8ff96b, #fefe38);
   font-family: "SJ Sans", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 width:100%;
 margin:0;
@@ -19,10 +18,9 @@ main{
 }
 /* Start of Nav Bar */
 nav {
- 
+  background-color: #77dd77;
   width:100%;
     font-size: 1.2rem;
-    padding-bottom: 5em;
   }
   
   nav ul {
@@ -124,13 +122,13 @@ nav {
 
   /* Start of Footer */
   footer {
-   
- 
+    background-color: #77dd77;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
   }
   
   footer a {
