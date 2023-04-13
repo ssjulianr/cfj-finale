@@ -1,17 +1,18 @@
 body{
-  background: linear-gradient(270deg, #8ff96b, #fefe38);
   font-family: "SJ Sans", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 width:100%;
 margin:0;
 display:flex;
 align-items: center;
-flex-direction: column
+flex-direction: column;
+background-image: linear-gradient(rgba(74,103,65, 0.5), rgba(74,103,65, 0.5)), url(source/back.webp);
+   
 
 }
 main{
   max-width: 700px;
   width: 100%;
-  background-color: #fff;
+  background-color: rgba(0,0,0,0.15); ;
   padding: 25px 30px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
@@ -19,10 +20,9 @@ main{
 }
 /* Start of Nav Bar */
 nav {
- 
+  background-color: #77dd77;
   width:100%;
     font-size: 1.2rem;
-    padding-bottom: 5em;
   }
   
   nav ul {
@@ -69,6 +69,10 @@ nav {
   main{
     margin:0;
     padding-bottom: 5em;
+    height:100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
   }
   /* Buttons */
   .Heropic{
@@ -124,13 +128,13 @@ nav {
 
   /* Start of Footer */
   footer {
-   
- 
+    background-color: #77dd77;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
   }
   
   footer a {
