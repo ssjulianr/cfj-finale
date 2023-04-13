@@ -1,5 +1,7 @@
 body{
   font-family: "SJ Sans", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+width:100%;
+margin:0;
 }
 /* Start of Nav Bar */
 nav {
@@ -48,25 +50,60 @@ nav {
 
   }
   /* End of Nav Bar */
+  main{
+    margin:0;
+  }
   /* Buttons */
+  .Heropic{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 100%;
+    margin: 0;
+  }
+  .donation{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.4rem;;
+    padding:1rem;
+  }
   button {
     border: 0;
-    background: #0087cc;
+    background: #58de6a;
     border-radius: 4px;
-    box-shadow: 0 5px 0 #006599;
+    box-shadow: 0 5px 0 #03a729;
     color: #fff;
     cursor: pointer;
     font: inherit;
     margin: 0;
     outline: 0;
-    padding: 12px 20px;
+    padding: 1em 2em;
     transition: all .1s linear;
+    width:fit-content;
+    
+  }
+  button:hover{
+    border-radius: 4%;
+    background-color: #58de6a;
   }
   button:active {
     box-shadow: 0 2px 0 #006599;
     transform: translateY(3px);
   }
-  
+  input{
+    border: 0;
+    background: #58de6a;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #03a729;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 1em 10em;
+   
+  }
 
   /* Start of Footer */
   footer {
