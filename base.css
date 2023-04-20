@@ -1,0 +1,351 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@Ahinojosa13 
+OAKevin
+/
+CodeForJustice
+Public
+Fork your own copy of OAKevin/CodeForJustice
+Code
+Issues
+Pull requests
+3
+Actions
+Projects
+Wiki
+Security
+Insights
+Beta Try the new code view
+CodeForJustice/skele.css
+
+Julian added html, css and JS for site skeleton
+Latest commit 0214505 yesterday
+ History
+ 0 contributors
+325 lines (239 sloc)  4.9 KB
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Link Styling */
+a{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+/* BASE STYLES */
+
+body{
+    background-image: linear-gradient(rgba(74,103,65, 0.5), rgba(74,103,65, 0.5)), url(images/back.webp);
+    padding-top: 5.625em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+/* NORMAL STYLES  */
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.top-bar{
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.top-bar_content{
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 0 2em;
+    height: 2em;
+    color: rgba(202, 231, 193, 0.8);
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 1.25em;
+}
+
+.icon{
+    margin-right: 3px;
+    color: rgba(202, 231, 193, 0.8);
+}
+
+.bottom-bar{
+    background-color: rgba(23, 38, 18, 0.5);
+}
+
+.bottom-bar_content{
+    min-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    padding: 0 2em;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;  /* Creates spacing between logo and company name */
+}
+
+#nav-logo{
+    padding-left: 5%;
+}
+
+.logo-img{
+    height: 2em;
+}
+
+.logo-text{
+    color: rgba(202, 231, 193, 1);
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.nav{
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 2.5em;
+}
+
+
+
+/* Setting the color properties like this will highlight the nav links when the cursor hovers over them  */
+.nav-link{
+    color: rgba(202, 231, 193, 0.7);
+    transition: all 0.2s;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: rgba(202, 231, 193, 1);
+}
+
+.btn2{
+    color: rgba(202, 231, 193, 0.8);
+    background-color: rgba(74,103,65, 1);
+    padding: 0.5em 1.25em;
+    border-radius: 62.5em;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.btn2:hover{
+    background-color: forestgreen;
+}
+
+        /* HEADER END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* FOOTER  */
+footer{
+    color: rgba(202, 231, 193, 0.7);
+    background-color: rgba(42, 44, 42, 0.5);
+    /* display: flex;
+    justify-content: end; */
+    margin-top: auto;
+    bottom: 0;
+    height: 15%;
+}
+
+footer p{
+    color: rgba(202, 231, 193, 0.25);
+    max-width: 25em;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+footer .container2{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.brand{
+    display: block;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.media-icons li{
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+
+.media-icons a{
+    font-size: 1.1em;
+    width: 2em;
+    height: 2em;
+    border: 1px rgba(202, 231, 193, 0.7) solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.media-icons a:hover{
+    background-color: rgba(202, 231, 193, 0.7);
+    color: whitesmoke;
+
+}
+
+.footer4{
+    text-align: center;
+}
+
+.footer4 .menu li{
+    display: inline-block;
+    margin: 0.7em;
+    text-align: center;
+}
+
+.footer4 p{
+    margin: 0 auto;
+}
+
+.footer4 .media-icons{
+    margin: 1.5em 0;
+    display: inline-block;
+
+}
+
+.ftr li{
+    padding-top: 0.5em;
+    color: rgba(202, 231, 193, 0.7);
+    transition: all 0.2s;
+}
+
+.ftr li:hover,
+.ftr li:focus{
+    color: rgba(202, 231, 193, 1);
+}
+
+.ftrlogo{
+    padding: 1em;
+}
+
+
+
+
+
+
+/* Responsive Hamburger Design */
+.hamburger{
+    display: none;
+}
+
+.bar{
+    height: 2px;
+    background-color: antiquewhite;
+    width: 1.75em;
+    margin: 5px 0;
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
+}
+
+
+/* JS */
+
+/* This code moves the mobile nav into view when the hamburger button is clicked (animation) */
+.nav--open{
+    transform: translateX(0%) !important;
+}
+
+/* This code changes the hamburger into an 'X' icon when clicked */
+.hamburger--open .bar:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger--open .bar:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger--open .bar:nth-child(3){
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
+ @media (min-width:320px) and (max-width: 800px) {
+    .nav{
+        position: fixed;
+        top: 5.625em;
+        left: 0;
+        background-color: rgb(19,22,26);
+        width: 100%;
+        padding: 0.625em 0 1.5em;
+        transform: translateX(-100%); /*This line of code hides the nav menu until the hamburger is clicked */
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.25em;
+    }
+    .nav-link{
+        font-size: 1em;
+
+    }
+    .btn2{
+        font-size: 0.75em;
+        padding: 0.5em 1em;
+    }
+
+    .hamburger{
+        display: block;
+    }
+}
+
+ /* Tablets */ 
+@media (min-width:801px) and (max-width:1023px) {
+
+} 
+
+
