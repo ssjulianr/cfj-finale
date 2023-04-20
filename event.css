@@ -1,6 +1,7 @@
 /* card flip css */
 .product-card {
     position: relative;
+    background-color: darkgreen;
     width: 100%;
     max-width: 25rem;
     height: 18.75rem;
@@ -48,7 +49,7 @@
   .product-card img {
     width: 80%;
     max-width: 12.5rem;
-    height: auto;
+    height: 80%;
     margin-bottom: 1.25rem;
   }
   
