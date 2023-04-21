@@ -13,6 +13,7 @@
 .MainHeader{
   margin-top: 5%;
   margin-bottom: 5%;
+  color: rgba(202, 231, 193, 0.7)
 }
 .submitbtn{
   display: flex;
@@ -43,9 +44,9 @@
   }
   .bigdonate {
     border: 0;
-    background: #58de6a;
+    background: rgba(202, 231, 193, 0.9);
     border-radius: 4px;
-    box-shadow: 0 5px 0 #03a729;
+    box-shadow: 0 5px 0 rgba(74,103,65, 1);
     color: #fff;
     cursor: pointer;
     font: inherit;
@@ -58,9 +59,9 @@
   }
   .lilbutton {
     border: 0;
-    background: #58de6a;
+    background: rgba(202, 231, 193, 0.9);
     border-radius: 4px;
-    box-shadow: 0 5px 0 #03a729;
+    box-shadow: 0 5px 0 rgba(74,103,65, 1);
     color: #fff;
     cursor: pointer;
     font: inherit;
@@ -75,21 +76,9 @@
   }
   button:hover{
     border-radius: 4%;
-    background-color: #58de6a;
+    background-color: rgba(74,103,65, 0.7);
   }
   button:active {
     box-shadow: 0 2px 0 #006599;
     transform: translateY(3px);
-  }
-  input{
-    border: 0;
-    background: #58de6a;
-    border-radius: 4px;
-    box-shadow: 0 5px 0 #03a729;
-    color: #fff;
-    cursor: pointer;
-    font: inherit;
-    margin: 0;
-    outline: 0;
-   
   }
