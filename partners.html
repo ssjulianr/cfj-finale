@@ -81,9 +81,9 @@
         rerum dignissimos, dolore a sapiente tempore mollitia! Optio atque temporibus 
         voluptatem saepe quidem!</p>
     </section>
-    <div class="slideshow-container">
+    <main class="slideshow-container">
         
-        <div class="mySlides fade">
+        <div class="mySlides fade" id="mower">
             <div class="numbertext">1 / 5</div>
             <img src="images/lawnmower.webp" style="width:100%">
             <div class="text"> <p><i>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -129,9 +129,9 @@
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
+    </main>
     <br>
-    <div style="text-align:center">
+    <div class="carousel" style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
@@ -139,10 +139,107 @@
         <span class="dot" onclick="currentSlide(5)"></span>
     </div>
 
-    <section class="dedication">
-         <h1>Dedication</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos placeat reiciendis, itaque, exercitationem architecto dolores ipsam omnis quidem sit officiis autem quas accusamus libero! Sapiente ducimus laboriosam similique repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi possimus quisquam, animi voluptas perferendis illum nostrum qui cum nam impedit nobis doloremque commodi, dolores quibusdam distinctio officia enim? Ipsum, et!</p>
-    </section>
+
+    <div class="section">
+        <div class="title">
+            <h1>Our Services</h1>
+        </div>
+        <div class="services">
+            <div class="card">
+                <div class="symbol">
+                    <i class="fas fa-calendar"></i>
+                </div>
+                <h2>Planning</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eum id molestias obcaecati nam harum, enim ipsam molestiae quibusdam quo sunt modi .
+                    </p>
+                    <a href="" class="button">Read More</a>
+            </div>
+            <div class="card">
+                <div class="symbol">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <h2>Renovation</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eum id molestias obcaecati nam harum, enim ipsam molestiae quibusdam quo sunt modi .
+                    </p>
+                    <a href="" class="button">Read More</a>
+            </div>
+            <div class="card">
+                <div class="symbol">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h2>Support</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eum id molestias obcaecati nam harum, enim ipsam molestiae quibusdam quo sunt modi .
+                    </p>
+                    <a href="" class="button">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero">
+        
+        <section class="reg-container">
+            <h1>Volunteer Registration</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium a officia ut possimus, sit nulla quasi perspiciatis soluta eveniet deserunt unde omnis, illum blanditiis nam consequatur quas nesciunt cum enim! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, officiis? Iure corrupti sed id sit commodi consequatur quidem, magnam doloribus sunt recusandae veniam molestias reprehenderit quos corporis, ipsa laudantium voluptatibus!</h2>
+            <form action="#">
+                <section class="main-user-info">
+                    <article class="user-input-box">
+                        <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="We're Gaia! And You Are?" required>
+                    </article>
+                    
+                    <article class="user-input-box">
+                        <label for="user">Username</label>
+                            <input type="text" id="user" name="user" placeholder="Choose a Username">
+                    </article>
+                    <article class="user-input-box">
+                        <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="What's Your Email?" required>
+                    </article>
+                    <article class="user-input-box">
+                        <label for="pw">Password</label>
+                            <input type="password" id="pw" name="pw" placeholder="Choose a Password">
+                    </article>
+                    
+                    
+                    <article class="user-input-box">
+                        <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="281-330-8004">
+                    </article>
+                    
+                        <article class="user-input-box">
+                            <label for="cpw">Confirm Password</label>
+                                <input type="password" id="cpw" name="cpw" placeholder="Confirm Password">
+                        </article>
+
+                        <article class="user-input-box">
+                            <label for="company">Company</label>
+                                <input type="text" id="company" name="company" placeholder="Optional">
+                        </article>
+                    
+                </section>
+                <section class="gender-details-box">
+                    <span class="gender-title">Pathway</span>
+                    <br>
+                    <article class="gender-category">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Landscaping</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Community Art</label>
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Litter Patrol</label>
+                    </article>
+                </section>
+                <div class="form-submit-btn">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+          </section>
+        
+        </div>
+    </main>
        
     <footer class="footer4">
         <div class="container">

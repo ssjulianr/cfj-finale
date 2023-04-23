@@ -134,7 +134,11 @@ body{
     background-color: forestgreen;
 }
 
+.carousel{
+padding-bottom: 10%;
 
+}
+    
 
 /* Community Partners Styling  */
 
@@ -148,22 +152,19 @@ body{
 .mySlides {
     display: none;
 }
-.mySlides:hover .text{
-    display: flex;
-    flex-direction: column;
-    transform: translateY(-100%);
-    transition: 1s;
-    opacity: 1;
-    background-color: rgba(0,0,0,0.4);;
-}
-img {
+
+.mySlides img {
     vertical-align: middle;
+    opacity: 0.9;
 }
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 80%;
   position: relative;
   margin: auto;
+  max-height: 50%;
+  padding-top: 20px;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -176,7 +177,7 @@ img {
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  transition: 0.6s ease-in-out;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -217,9 +218,9 @@ img {
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
+  position: relative;
   top: 0;
+  bottom: 0;
 }
 /* The dots/bullets/indicators */
 .dot {
@@ -231,6 +232,7 @@ img {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  
 }
 .active, .dot:hover {
   background-color: #717171;
@@ -252,16 +254,218 @@ img {
 }
 
 
+/* Registration Section  */
+.hero{
+    /* background-image: linear-gradient(rgba(74,103,65, 0.5), rgba(74,103,65, 0.5)), url(images/back.webp); */
+    /* height:100vh; */
+    /* padding-left: 100px; */
+    width: 100%;
+    position: relative;
+    /* background-position: center;
+    background-size: cover; */
+}
 
+.hero h1{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 2.5rem;
+    color: lightgreen;
+}
 
+.reg-container{
+    /* width: 50%; */
+    /* max-width: 650px; */
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    /* padding: 1.75rem; */
+    /* margin: 0 1.75rem; */
+    border-radius: 0.625rem;
+    box-shadow: inset -2px 2px 2px white;
+    width: 100%;
+  }
 
+  .reg-container h1{
+    padding-top: 0%;
+  }
+  
+  .form-title{
+    font-size: 1.625rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+  }
+  
+  .main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.25rem;
+    text-align: center;
+  }
+  
+  .user-input-box:nth-child(2n){
+    justify-content: end;
+  
+  }
+  
+  .user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 1rem;
+  }
+  
+  .user-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 5px 0;
+  
+  }
+  
+  .user-input-box input{
+    height: 2.5rem;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+  }
+  
+  /* .gender-details-box{
+    display: flex;
+    justify-content: center;
+  } */
 
+  .gender-title{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+  }
+  
+  .gender-category{
+    margin: 1rem 0;
+    color: white;
+  }
+  
+  .gender-category label{
+    padding: 0 20px 0 5px;
+  }
+  
+  .gender-category label,
+  .gender-category input,
+  .form-submit-btn input{
+    cursor: pointer;
+  }
+  
+  .form-submit-btn{
+    margin-top: 2.5rem;
+    padding-left: 45%;
+    padding-right: 45%;
+  }
+  
+  .form-submit-btn input{
+    display: block;
+    /* width: 100%; */
+    margin-top: 0.625rem;
+    font-size: 1.25rem;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: rgba(74,103,65, 0.5);
+  }
+  
+  .form-submit-btn input:hover{
+    background: rgba(43, 136, 14, 0.5);
+    color: white;
+  }
 
+  /* Our Services */
 
+  .title h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 42px;
 
+  }
 
+  .title::after h1{
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #000;
+    display: block;
+    margin: auto;
+  }
 
+.services{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
 
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: forestgreen;
+    transition: 0.4s ease;
+}
+
+.card .icon{
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}
+
+.card h2{
+    font-size: 28px;
+    color: #c94f4f;
+    margin-bottom: 20px;
+    
+}
+
+.card p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    color: #5e5e5e;
+}
+
+.button{
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: navy;
+}
+
+.button:hover{
+    background-color: red;
+    transition: 0.4s ease;
+}
 
 
         /* FOOTER  STYLES*/
@@ -397,7 +601,7 @@ footer .container2{
 /* Media Queries */
 
 /* Mobile Devices */
- @media (min-width:320px) and (max-width: 800px) {
+ @media screen and (min-width:320px) and (max-width: 800px) {
     .nav{
         position: fixed;
         top: 5.625em;
@@ -425,6 +629,44 @@ footer .container2{
     .hamburger{
         display: block;
     }
+
+    /* Partners Page */
+    .slideshow-container{
+        
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .mySlides img{
+        opacity: 0.5;
+    }
+
+    .mySlides .text{
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: end;
+        
+    }
+
+    .prev, .next, .text{
+        font-size: 14px;
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
+    }
+    .card{
+        width: 85%;
+        display: flex;
+        margin: 20px 0px;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
  /* Tablets */ 
@@ -433,7 +675,17 @@ footer .container2{
 } 
 
 
-
+@media (min-width: 1024px){
+    .mySlides:hover .text{
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-100%);
+        transition: 1s ease-in-out;
+        opacity: 1;
+        background-color: rgba(0,0,0,0.4); 
+    }
+    
+}
 
 
 
