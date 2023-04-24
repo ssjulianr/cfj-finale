@@ -10,39 +10,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;
-    300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="skele.css">
-    <script src="skele.js" defer></script>
+    
 </head>
 <body>
     <header class="header">
         <!-- Top portion showing phone number and email -->
         <section class="top-bar">
             <section class="top-bar_content">
-                <div class="phone">
+                <article class="phone">
                     <i class="fa-solid fa-phone-volume icon"></i>
-                    <span>(281) 330-8004</span>
-                </div>
+                    <label>(281) 330-8004</label>
+                </article>
 
-                <div class="email">
+                <article class="email">
                     <i class="fa-solid fa-envelope icon"></i>
-                    <span>info@gaia.inc</span>
-                </div>
+                    <label>info@gaia.inc</label>
+                </article>
             </section>
         </section>
         <!-- Actual nav bar -->
         <section class="bottom-bar">
-            <div class="bottom-bar_content">
+            <article class="bottom-bar_content">
                 <!-- The 'a' tag here acts as a container for the logo and company name, making both clickable/returable to the homepage -->
                 <a href="#" class="logo" id="nav-logo">
-                    <img src="images/gaia-nav.webp" alt="GAIA.inc Logo" class="logo-img">
-                    <span class="logo-text">GAIA.inc</span>
+                    <img src="source/gaia-nav.webp" alt="GAIA.inc Logo" class="logo-img">
+                    <label class="logo-text">GAIA.inc</label>
                 </a>
                 <nav class="nav">
                     <ul class="nav-list">
@@ -65,120 +63,119 @@
                 </nav>
 
                 <section class="hamburger">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
+                    <label class="bar"></label>
+                    <label class="bar"></label>
+                    <label class="bar"></label>
                 </section>
-            </div>
+            </article>
         </section>
     </header>
 
-    <section id="blog">
-        <div class="blog-heading">
-            <span>My Recent Posts</span>
-            <h3>My Blog</h3>
-        </div>
+    <main id="blog">
+        <blockquote class="blog-heading">
+            <label>(Keeping up with GAIA)</label>
+            <h1>GAIA.blog</h1>
+        </blockquote>
 
-        <div class="blog-cont">
+        <section class="blog-cont">
 
             <!-- box 1 -->
-            <div class="blog-box">
+            <section class="blog-box">
                 <!-- img -->
-                <div class="blog-img">
-                    <img src="images/handz.jpg" alt="Blog">
-                </div>
+                <article class="blog-img">
+                    <img src="source/handz.webp" alt="People Collaborating on Laptop">
+                </article>
 
                 <!-- text -->
-                <div class="blog-text">
-                    <span>18 July 2023 / Web Design</span>
-                    <a href="" class="blog-title">What has happened of All of the web Design Ideas?</a>
+                <blockquote class="blog-text">
+                    <label>20 April 2023 / Mentorship</label>
+                    <a href="https://www.nyrp.org/en/blog/" class="blog-title">Organizing Gen-Z</a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa sit excepturi minus praesentium sint enim architecto et nobis aspernatur aliquam, assumenda eos ratione, facere perferendis corporis possimus reiciendis totam!</p>
-                    <a href="">Read More</a>
-                </div>
-            </div>
+                    <a href="https://www.nyrp.org/en/blog/">Read More</a>
+                </blockquote>
+            </section>
 
             <!-- box 2 -->
-            <div class="blog-box">
+            <section class="blog-box">
                 <!-- img -->
-                <div class="blog-img">
-                    <img src="images/handz.jpg" alt="Blog">
-                </div>
+                <article class="blog-img">
+                    <img src="source/paint.webp" alt="Messy Painter">
+                </article>
 
                 <!-- text -->
-                <div class="blog-text">
-                    <span>18 July 2023 / Web Design</span>
-                    <a href="" class="blog-title">What has happened of All of the web Design Ideas?</a>
+                <blockquote class="blog-text">
+                    <label>13 April 2023 / Community Restoration</label>
+                    <a href="https://www.nyrp.org/en/blog/" class="blog-title">Freedom Park Mural (4/3)</a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa sit excepturi minus praesentium sint enim architecto et nobis aspernatur aliquam, assumenda eos ratione, facere perferendis corporis possimus reiciendis totam!</p>
-                    <a href="">Read More</a>
-                </div>
-            </div>
+                    <a href="https://www.nyrp.org/en/blog/">Read More</a>
+                </blockquote>
+            </section>
 
             <!-- box 3 -->
-            <div class="blog-box">
+            <section class="blog-box">
                 <!-- img -->
-                <div class="blog-img">
-                    <img src="images/handz.jpg" alt="Blog">
-                </div>
+                <article class="blog-img">
+                    <img src="source/team.webp" alt="Huddle">
+                </article>
 
                 <!-- text -->
-                <div class="blog-text">
-                    <span>18 July 2023 / Web Design</span>
-                    <a href="" class="blog-title">What has happened of All of the web Design Ideas?</a>
+                <blockquote class="blog-text">
+                    <label>6 April 2023 / Mentorship</label>
+                    <a href="https://www.nyrp.org/en/blog/" class="blog-title">Workshop Follow-Up</a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa sit excepturi minus praesentium sint enim architecto et nobis aspernatur aliquam, assumenda eos ratione, facere perferendis corporis possimus reiciendis totam!</p>
-                    <a href="">Read More</a>
-                </div>
-            </div>
+                    <a href="https://www.nyrp.org/en/blog/">Read More</a>
+                </blockquote>
+            </section>
 
             <!-- box 4 -->
-            <div class="blog-box">
+            <section class="blog-box">
                 <!-- img -->
-                <div class="blog-img">
-                    <img src="images/handz.jpg" alt="Blog">
-                </div>
+                <article class="blog-img">
+                    <img src="source/heart.webp" alt="Heart of Hands">
+                </article>
 
                 <!-- text -->
-                <div class="blog-text">
-                    <span>18 July 2023 / Web Design</span>
-                    <a href="" class="blog-title">What has happened of All of the web Design Ideas?</a>
+                <blockquote class="blog-text">
+                    <label>25 March 2023 / Urban Planning</label>
+                    <a href="https://www.nyrp.org/en/blog/" class="blog-title">Town Hall Meeting </a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa sit excepturi minus praesentium sint enim architecto et nobis aspernatur aliquam, assumenda eos ratione, facere perferendis corporis possimus reiciendis totam!</p>
-                    <a href="">Read More</a>
-                </div>
-            </div>
+                    <a href="https://www.nyrp.org/en/blog/">Read More</a>
+                </blockquote>
+            </section>
 
-              <!-- box 4 -->
-              <div class="blog-box">
+              <!-- box 5 -->
+              <section class="blog-box">
                 <!-- img -->
-                <div class="blog-img">
-                    <img src="images/handz.jpg" alt="Blog">
-                </div>
+                <article class="blog-img">
+                    <img src="source/passion.webp" alt="Passion Led Us Here">
+                </article>
 
                 <!-- text -->
-                <div class="blog-text">
-                    <span>18 July 2023 / Web Design</span>
-                    <a href="" class="blog-title">What has happened of All of the web Design Ideas?</a>
+                <blockquote class="blog-text">
+                    <label>17 March 2023 / Urban Planning</label>
+                    <a href="https://www.nyrp.org/en/blog/" class="blog-title">"Meet the Mayor!" Event</a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa sit excepturi minus praesentium sint enim architecto et nobis aspernatur aliquam, assumenda eos ratione, facere perferendis corporis possimus reiciendis totam!</p>
-                    <a href="">Read More</a>
-                </div>
-            </div>
+                    <a href="https://www.nyrp.org/en/blog/">Read More</a>
+                </blockquote>
+            </section>
 
-              <!-- box 4 -->
-              <div class="blog-box">
+              <!-- box 6 -->
+              <section class="blog-box">
                 <!-- img -->
-                <div class="blog-img">
-                    <img src="images/handz.jpg" alt="Blog">
-                </div>
+                <article class="blog-img">
+                    <img src="source/worker.webp" alt="Young Boy Watering Plant">
+                </article>
 
                 <!-- text -->
-                <div class="blog-text">
-                    <span>18 July 2023 / Web Design</span>
-                    <a href="" class="blog-title">What has happened of All of the web Design Ideas?</a>
+                <blockquote class="blog-text">
+                    <label>17 March 2023 / Community Restoration</label>
+                    <a href="https://www.nyrp.org/en/blog/" class="blog-title">St. Patty's Garden Gala</a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsa sit excepturi minus praesentium sint enim architecto et nobis aspernatur aliquam, assumenda eos ratione, facere perferendis corporis possimus reiciendis totam!</p>
-                    <a href="">Read More</a>
-                </div>
-            </div>
-        </div>
-
-    </section>
+                    <a href="https://www.nyrp.org/en/blog/">Read More</a>
+                </blockquote>
+            </section>
+        </section>
+    </main>
    
  
     <footer class="footer4">
@@ -186,7 +183,7 @@
             <div class="ftrlogo">
                 <!-- The 'a' tag here acts as a container for the logo and company name, making both clickable/returable to the homepage -->
                 <a href="#" class="logo">
-                    <img src="images/gaia-nav.webp" alt="GAIA.inc Logo" class="logo-img">
+                    <img src="source/gaia-nav.webp" alt="GAIA.inc Logo" class="logo-img">
                     <span class="logo-text">GAIA.inc</span>
                 </a>
             </div>
@@ -211,25 +208,25 @@
                 </nav>
                 <ul class="media-icons">
                     <li>
-                        <a href="#">
+                        <a href="linkedin.com">
                             <i class="fab fa-linkedin"></i>
 
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="twitter.com">
                             <i class="fab fa-twitter"></i>
 
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="instagram.com">
                             <i class="fab fa-instagram"></i>
 
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="tiktok.com">
                             <i class="fab fa-tiktok"></i>
 
                         </a>
@@ -240,5 +237,6 @@
                 </p>
         </div>
     </footer>
+    <script src="skele.js"></script>
 </body>
 </html>
