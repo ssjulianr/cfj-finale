@@ -4,40 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeForJustice</title>
-    <link href="nstyle.css" rel="stylesheet" type="text/css" >
-    
+
+    <title>GAIA.inc</title>
+    <link rel="stylesheet" href="team.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;
+    300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="nstyle.css">
+    <script src="skele.js" defer></script>
 </head>
 <body>
-    
-    <nav>
-        <ul>
-        <nav class="logocontainer">GAIA.inc</nav>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="partner.html">PARTNERS</a></li>
-        <li><a href="donate.html">DONATE</a></li>
-        <li><a href="volunteer.html">VOLUNTEER</a></li>
-        <li><a href="newsletter.html">NEWSLETTER</a></li>
-        <!-- <li><a href="Registration.html">REGISTRATION</a></li> -->
-        </ul>
-    </nav>
-    
-    <nav class="videocontainer">
+    <header class="header">
+        <!-- Top portion showing phone number and email -->
+        <section class="top-bar">
+            <section class="top-bar_content">
+                <div class="phone">
+                    <i class="fa-solid fa-phone-volume icon"></i>
+                    <span>(281) 330-8004</span>
+                </div>
+
+                <div class="email">
+                    <i class="fa-solid fa-envelope icon"></i>
+                    <span>info@gaia.inc</span>
+                </div>
+            </section>
+        </section>
+        <!-- Actual nav bar -->
+        <section class="bottom-bar">
+            <div class="bottom-bar_content">
+                <!-- The 'a' tag here acts as a container for the logo and company name, making both clickable/returable to the homepage -->
+                <a href="index.html" class="logo" id="nav-logo">
+                    <img src="source/gaia-nav.webp" alt="GAIA.inc Logo" class="logo-img">
+                    <span class="logo-text">GAIA.inc</span>
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="partner.html" class="nav-link">PARTNERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html" class="nav-link">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="event.html" class="nav-link">NEWS/EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="donate.html" class="btn2">DONATE</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </section>
+            </div>
+        </section>
+    </header>
+
+    <div class="video-container">
         <video autoplay muted
         src="source/lawn.mp4" type="video/mp4"></video>
-       
-    </nav>
-    <nav class="testcontainer">
-        <h4> Quality care made equal.</h4>
-    </nav>
-    
+        <div class="overlay">
+        <h2>GAIA.inc</h2>
+        <P>Gaia.inc is commited to creating an enviroment of culture and care in local communities</P>
+        </div>
+    </div>
+    <form>
+        <button type="submit" formaction="team.html">ABOUT US</button>
+     </form>
 
-    <footer>
-        <a href="https://www.facebook.com"><img src="/source/Facebook.png"></img></a>
-        <a href="https://www.instagram.com"><img src="/source/Instagram.png"></img></a>
-        <a href="https://www.youtube.com"><img src="/source/YouTube.png"></img></a>
-        <a href="https://www.linkedin.com"><img src="/source/Linkedin.png"></img></a>
-        <p>&copy; 2023. GAIA.inc </p>
+
+
+       
+     <footer class="footer4">
+        <div class="container">
+            <div class="ftrlogo">
+                <!-- The 'a' tag here acts as a container for the logo and company name, making both clickable/returable to the homepage -->
+                <a href="index.html" class="logo">
+                    <img src="source/gaia-nav.webp" alt="GAIA.inc Logo" class="logo-img">
+                    <span class="logo-text">GAIA.inc</span>
+                </a>
+            </div>
+                <nav class="ftrnav">
+                <ul class="ftr">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="partner.html">PARTNERS</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="event.html">NEWSLETTER</a>
+                    </li>
+                    <li>
+                        <a href="donate.html">DONATE</a>
+                    </li>
+                </ul>
+                </nav>
+                <ul class="media-icons">
+                    <li>
+                        <a href="https://www.linkedin.com">
+                            <i class="fab fa-linkedin"></i>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com">
+                            <i class="fab fa-twitter"></i>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com">
+                            <i class="fab fa-instagram"></i>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com">
+                            <i class="fab fa-tiktok"></i>
+
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    2023 GAIA.inc™
+                </p>
+        </div>
     </footer>
 </body>
 </html>
