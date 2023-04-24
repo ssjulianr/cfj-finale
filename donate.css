@@ -15,6 +15,7 @@
   color: rgba(202, 231, 193, .7);
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .submitbtn{
   display: flex;
