@@ -1,7 +1,7 @@
 /* card flip css */
 .product-card {
   position: relative;
-  background-color: darkgreen;
+  background-color: rgba(23, 38, 18, 0.5);
   width: 100%;
   max-width: 25rem;
   height: 18.75rem;
@@ -9,6 +9,7 @@
 }
   
 .front, .back {
+  background-image: url('/source/back.webp');
   position: absolute;
   width: 100%;
   height: 100%;
@@ -51,11 +52,13 @@
   max-width: 12.5rem;
   height: 80%;
   margin-bottom: 1.25rem;
+  border-color: rgba(23, 38, 18, 0.5);
 }
 
 .product-card h2 {
   font-size: 1.5rem;
   margin: 0;
+  color: #E6E4D8;
 }
 
 .back p {
@@ -63,6 +66,7 @@
   margin: 0;
   padding: 0 1.25rem;
   text-align: center;
+  color: #E6E4D8;
 }
 
 .back ul {
@@ -81,6 +85,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+    justify-content: space-between;
   }
 }
 @media(min-width:816px){
@@ -90,6 +95,7 @@
     grid-template-rows: auto auto;
     text-align: center;
     align-items: center;
+    
 }
 }
 @media(min-width:1447px){
@@ -98,6 +104,7 @@
     grid-gap: 10px;
     color: #444;
     grid-template-columns:repeat(4, 350px);
+    justify-content: space-between;
 } 
 }
 
@@ -119,6 +126,7 @@
 
 .back p {
   font-size: 1.2rem;
+  color: #E6E4D8;
 }
   }
   /* Form CSS */
@@ -131,18 +139,25 @@
   text-align: center;
 }
 .event-form input{
-  background-color: #0cf39e;
+  background-color: #CAE7C1B3;
   color:azure;
   width:80%;
   padding:.5rem .5rem;
 }
 .event-form ::placeholder{
-  color:#593a06;
+  color:azure;
   font-weight: bold;
 }
 .event-form textarea{
   font-size: 1rem;
+  background-color: #CAE7C1B3;
+  color:azure;
   text-align: center;
   height: 4rem; 
 }
-  
+.back details{
+  color:#E6E4D8;
+} 
+.back ul{
+  color:#E6E4D8;
+}
