@@ -1,3 +1,5 @@
+//Javascript for hamburger menu in responsive design 
+
 const nav = document.querySelector('.nav');
 const hamburger = document.querySelector('.hamburger');
 
